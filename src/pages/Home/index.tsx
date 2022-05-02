@@ -31,7 +31,7 @@ const Home = (): JSX.Element => {
 
   useEffect(() => {
     async function loadProducts() {
-      // TODO
+      const productsList = 
     }
 
     loadProducts();
