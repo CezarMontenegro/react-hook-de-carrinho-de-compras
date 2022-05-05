@@ -46,7 +46,6 @@ const Home = (): JSX.Element => {
 
   function handleAddProduct(id: number) {
     addProduct(id);
-    console.log(cart)
   }
 
   return (
@@ -54,7 +53,6 @@ const Home = (): JSX.Element => {
       {
         products.map(product => (
         <li key={product.id}>
-          <p>{product.id}</p>
           <img src={ product.image } alt={ product.title } />
           <strong>{ product.title }</strong>
           <span>{ product.priceFormatted }</span>
